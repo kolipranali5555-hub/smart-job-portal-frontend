@@ -1,0 +1,37 @@
+.navbar-glass {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background: rgba(15, 23, 42, 0.75);
+
+  backdrop-filter: blur(12px);
+
+  -webkit-backdrop-filter: blur(12px);
+
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+
+  transition: all 0.3s ease;
+}
+
+.navbar-brand{
+    font-size:24px;
+    font-weight:bold;
+    letter-spacing:1px;
+}
+
+.navbar .btn{
+
+    border-radius:10px;
+
+    transition:0.3s;
+
+}
+
+.navbar .btn:hover{
+
+    transform:translateY(-2px);
+
+}
